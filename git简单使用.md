@@ -4,7 +4,7 @@
 
 <img src="img/git1.JPG" width="60%"/><br/>
 ## 下载并完成安装 
-![](img/git2.JPG)<br/>
+<img src="img/git2.JPG" width="60%"/><br/>
 在任意目录下，可以看到右击菜单多了一个git Bash和git GUI选项，说明已经安装成功。
 # git简单使用
 ## 用户名和邮箱配置 
