@@ -80,32 +80,41 @@ GitHub需要识别出你推送的提交确实是你推送的，而不是别人�
 ## 提交和上推
 在本地仓库中对文件进行修改和增加，在git GUI中选择 rescan 重新扫描文件
 
-![](img/rescan.JPG)
+![](img/rescan.JPG)<br/>
 
 部分文件可以看到右边窗口显示乱码，右击右边窗口，选择Encoding——>Unicode(UTF-8) 即可恢复正常，黑色字体是不变内容，绿色字体是新增加的内容，红色字体是修改的或删除的内容
 
-![](img/encoding.JPG)
+![](img/encoding.JPG)<br/>
 
 点击左上窗口所有文件的图标，并在右下窗口写上提交信息，选择Commit——>Push
 
-![](img/push.JPG)
-![](img/push1.JPG)
+![](img/push.JPG)<br/>
+![](img/push1.JPG)<br/>
 
 上推成功！
 
-![](img/pushsuccess.JPG)
+![](img/pushsuccess.JPG)<br/>
 ## 这时在远程仓库中新添了文件
-![](img/git10.JPG)
+![](img/git10.JPG)<br/>
 
 # 增加.gitignore忽略文件
 当我们必须把某些文件放在本地，又不想提交它时，我们需要创建一个忽略目录
 ## 在本地仓库新建一个文本文档
-![](img/createtxt.JPG)
 ## 在文档中添加要忽略的内容
-![](img/gitignore.JPG)
+		classes、classes/	路径中含有classes就被忽略
+		/classes/*、/class/、classes/*		.gitignore同级目录classes下所有文件被忽略（建议用第一个）
+		
+		*.class	文件名以.class结尾的一类文件被忽略
+		.class	文件名是.class的一个文件被忽略
+		
+		WebRoot/WEB-INF/classes、WebRoot/WEB-INF/classes/、WebRoot/WEB-INF/classes/*	.gitignore同级目录WebRoot下的WEB-INF/classes所有文件被忽略
+		*/WEB-INF/classes、*/WEB-INF/classes/、*/WEB-INF/classes/*			.gitignore所有同级目录下的WEB-INF/classes下文件被忽略
+		**/WEB-INF/classes、**/WEB-INF/classes/、**/WEB-INF/classes/*			所有路径中含有 WEB-INF/classes 的文件被忽略
+		.gitignore 放在 .git 文件同级才会生效
+![](img/gitignore.JPG)<br/>
 ## 另存为所有文件，命名为.gitignore
-![](img/savegitignore.JPG)
-## 上推到远程仓库
+![](img/savegitignore.JPG)<br/>
+ 并上推到远程仓库
 
 # 创建分支
 ## 选择branch菜单下的create选项
