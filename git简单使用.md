@@ -203,7 +203,8 @@ GitHub需要识别出你推送的提交确实是你推送的，而不是别人�
 
 # 8.版本回退
 #### 打开git GUI选择repository-->visualize all branch history
-可以看到所有commit和merge的历史
-![](img/branchhistory.jpg)
+可以看到所有commit和merge的历史<br/>
+![](img/branchhistory.jpg)<br/>
 #### 选择其中一个节点右键-->reset *** branch to here
+![](img/reset.png)<br/>
 你的文件就会回到当时commit的版本
