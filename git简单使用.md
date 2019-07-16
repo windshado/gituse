@@ -112,7 +112,8 @@ GitHub需要识别出你推送的提交确实是你推送的，而不是别人�
 		*/WEB-INF/classes、*/WEB-INF/classes/、*/WEB-INF/classes/*			.gitignore所有同级目录下的WEB-INF/classes下文件被忽略
 		**/WEB-INF/classes、**/WEB-INF/classes/、**/WEB-INF/classes/*			所有路径中含有 WEB-INF/classes 的文件被忽略
 		.gitignore 放在 .git 文件同级才会生效
-![](img/gitignore.JPG)<br/>
+
+<img src="img/gitignore.JPG" width="70%" />
 ## 另存为所有文件，命名为.gitignore
 ![](img/savegitignore.JPG)<br/>
  并上推到远程仓库
