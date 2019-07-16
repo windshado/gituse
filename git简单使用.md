@@ -48,7 +48,7 @@ git:<br/>
 ![](img/createanewrepository.jpg)<br/>
 
 ## add collaborator
-在github的仓库中选择setings-->Collaborators-->输入并选择用户-->add collaborator
+在刚创建的仓库中选择setings-->Collaborators-->输入并选择用户-->add collaborator
 ![](img/addcollaborators.jpg)<br/>
 #### 被添加人员会收到invitation，accept invitation即可加入开发
 ![](img/addcollaborators2.png)
