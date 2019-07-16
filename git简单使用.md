@@ -1,24 +1,45 @@
 # git安装
 ## 到官网下载git
+[点我下载](https://git-scm.com/download/win)
 
 ![](img/git1.JPG)
 
-## 下载完成并安装 
-![](img/git2.JPG)
+## 下载并完成安装 
+![](img/git2.JPG)<br/>
+在任意目录下，可以看到右击菜单多了一个git Bash和git GUI选项，说明已经安装成功。
 # git简单使用
 ## 用户名和邮箱配置 
+右击选择git Bash，输入
+
+		$ git config --global user.name "Your Name"
+		$ git config --global user.email "email@example.com"
+
+输入 git config --list 检查是否设置成功
 ![](img/git3.JPG)
-## 创建ssh key
+#创建本地和远程仓库
+## 创建远程仓库
+登录github账号，选择repositories-->new
+![](img/githubcreaterepositories.jpg)<br/>
+输入你的仓库名称、描述、勾选Initialize this repository with a README-->创建
+![](img/createanewrepository.jpg)<br/>
+
+
+## ssh key
+GitHub需要识别出你推送的提交确实是你推送的，而不是别人冒充的，而Git支持SSH协议，所以，GitHub只要知道了你的公钥，就可以确认只有你自己才能推送。GitHub允许你添加多个Key。假定你有若干电脑，你一会儿在公司提交，一会儿在家里提交，只要把每台电脑的Key都添加到GitHub，就可以在每台电脑上往GitHub推送了。
+###创建ssh key
+首先检查自己的账户目录下是否存在.ssh文件夹，若没有说明还没有创建ssh key<br/>
+
 打开git bash输入命令
 
-ssh-keygen -t rsa -C"1776438044@qq.com"
+		ssh-keygen -t rsa -C"email@example.com"
+创建ssh key<br/>
 
-按回车跳过自定义名称然后输入密码
+按回车跳过自定义名称然后输入密码（可以再直接按回车不设置密码）
 
 ![](img/git4.JPG)
 
-## 复制公钥
-在本地用户目录下找到".ssh"文件夹
+### 复制公钥
+在账户目录下找到".ssh"文件夹
 
 ![](img/sshlocation.JPG)
 
@@ -26,25 +47,25 @@ ssh-keygen -t rsa -C"1776438044@qq.com"
 
 ![](img/ssh.JPG)
 
-## 在gitlab中添加ssh key
-用浏览器打开我的git账户，点击头像选择 Settings——>SSH Keys
+### 在github中添加ssh key
+用浏览器打开github账户，点击头像选择 Settings——>SSH and GPG Keys-->new SSH key
 
 ![](img/addssh.JPG)
 
-把刚才复制的内容粘贴到key栏中，选择Add key
+把刚才复制的内容粘贴到key栏中，Title给这个key起个名字，选择Add SSH key
 
 ![](img/git5.JPG)
 
 ## clone项目到本地
-在本地任意目录右击选择 git GUI here
+在任意目录下右击选择 git GUI here
 
 ![](img/gitguihere.JPG)
 
-用浏览器打开我创建的远程仓库，复制项目地址
+用浏览器打开创建的远程仓库，复制项目地址
 
 ![](img/sourcelocation.JPG)
 
-把地址粘贴到git gui的source location一栏，本地地址注意要在后面加上一个不存在的目录名
+把地址粘贴到git gui的source location一栏，本地地址注意要在后面加上一个你要创建的仓库目录名
 
 ![](img/git7.JPG)
 
@@ -52,7 +73,7 @@ ssh-keygen -t rsa -C"1776438044@qq.com"
 
 ![](img/clonewait.JPG)
 
-稍等片刻
+稍等片刻，就可以把远程仓库克隆到本地仓库中了
 
 ![](img/git6.JPG)
 
