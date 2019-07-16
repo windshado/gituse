@@ -47,6 +47,13 @@ git:<br/>
 #### 输入你的仓库名称、描述、勾选Initialize this repository with a README-->创建
 ![](img/createanewrepository.jpg)<br/>
 
+## add collaborator
+在github的仓库中选择setings-->Collaborators-->输入并选择用户-->add collaborator
+![](img/addcollaborators.jpg)<br/>
+#### 被添加人员会收到invitation，accept invitation即可加入开发
+![](img/addcollaborators2.png)
+![](img/addcollaborators3.png)
+![](img/addcollaborators4.png)
 
 ## ssh key
 GitHub需要识别出你推送的提交确实是你推送的，而不是别人冒充的，而Git支持SSH协议，所以，GitHub只要知道了你的公钥，就可以确认只有你自己才能推送。GitHub允许你添加多个Key。假定你有若干电脑，你一会儿在公司提交，一会儿在家里提交，只要把每台电脑的Key都添加到GitHub，就可以在每台电脑上往GitHub推送了。
@@ -101,13 +108,6 @@ GitHub需要识别出你推送的提交确实是你推送的，而不是别人�
 
 <img src="img/git6.JPG" width="60%"/><br/>
 
-## add collaborator
-在github的仓库中选择setings-->Collaborators-->输入并选择用户-->add collaborator
-![](img/addcollaborators.jpg)<br/>
-#### 被添加人员会收到invitation，accept invitation即可加入开发
-![](img/addcollaborators2.png)
-![](img/addcollaborators3.png)
-![](img/addcollaborators4.png)
 
 # 5.commit and push
 在本地工作目录中对文件进行修改、增加或删除，在git GUI中选择 rescan 重新扫描文件，被增删改的文件会显示在左上窗口
