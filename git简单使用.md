@@ -2,7 +2,7 @@
 ## 到官网下载git
 [点我下载](https://git-scm.com/download/win)
 
-![](img/git1.JPG)
+![](img/git1.JPG)<br/>
 
 ## 下载并完成安装 
 ![](img/git2.JPG)<br/>
@@ -15,7 +15,7 @@
 		$ git config --global user.email "email@example.com"
 
 输入 git config --list 检查是否设置成功
-![](img/git3.JPG)
+![](img/git3.JPG)<br/>
 #创建本地和远程仓库
 ## 创建远程仓库
 登录github账号，选择repositories-->new
@@ -36,46 +36,46 @@ GitHub需要识别出你推送的提交确实是你推送的，而不是别人�
 
 按回车跳过自定义名称然后输入密码（可以再直接按回车不设置密码）
 
-![](img/git4.JPG)
+![](img/git4.JPG)<br/>
 
 ### 复制公钥
 在账户目录下找到".ssh"文件夹
 
-![](img/sshlocation.JPG)
+![](img/sshlocation.JPG)<br/>
 
 使用记事本打开"id_rsa.pub"文件,复制里面的内容
 
-![](img/ssh.JPG)
+![](img/ssh.JPG)<br/>
 
 ### 在github中添加ssh key
 用浏览器打开github账户，点击头像选择 Settings——>SSH and GPG Keys-->new SSH key
 
-![](img/addssh.JPG)
+![](img/addssh.JPG)<br/>
 
 把刚才复制的内容粘贴到key栏中，Title给这个key起个名字，选择Add SSH key
 
-![](img/git5.JPG)
+![](img/git5.JPG)<br/>
 
 ## clone项目到本地
 在任意目录下右击选择 git GUI here
 
-![](img/gitguihere.JPG)
+![](img/gitguihere.JPG)<br/>
 
 用浏览器打开创建的远程仓库，复制项目地址
 
-![](img/sourcelocation.JPG)
+![](img/sourcelocation.JPG)<br/>
 
 把地址粘贴到git gui的source location一栏，本地地址注意要在后面加上一个你要创建的仓库目录名
 
-![](img/git7.JPG)
+![](img/git7.JPG)<br/>
 
 选择Clone
 
-![](img/clonewait.JPG)
+![](img/clonewait.JPG)<br/>
 
-稍等片刻，就可以把远程仓库克隆到本地仓库中了
+稍等片刻，远程仓库就克隆到本地仓库中了
 
-![](img/git6.JPG)
+![](img/git6.JPG)<br/>
 
 ## 提交和上推
 在本地仓库中对文件进行修改和增加，在git GUI中选择 rescan 重新扫描文件
