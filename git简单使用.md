@@ -2,8 +2,7 @@
 ## 到官网下载git
 [点我下载](https://git-scm.com/download/win)
 
-![](img/git1.JPG)<br/>
-
+<img src="img/git1.JPG" width="60%"/><br/>
 ## 下载并完成安装 
 ![](img/git2.JPG)<br/>
 在任意目录下，可以看到右击菜单多了一个git Bash和git GUI选项，说明已经安装成功。
@@ -167,3 +166,4 @@ GitHub需要识别出你推送的提交确实是你推送的，而不是别人�
 ## 选择branch|delete
 ## 选择要删除的分支，选择delete
 ![](img/deletebranch.JPG)
+
