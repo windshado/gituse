@@ -13,16 +13,16 @@
 
 ## git:分布式版本管理系统
 
-集中式版本控制系统:
+集中式版本控制系统:<br/>
 <img src="img/svn.jpg" width="60%"/><br/>
-git:
+git:<br/>
 <img src="img/git.jpg" width="60%"/><br/>
 ![](img/gitintroduce.jpg)<br/>
 ![](img/gitintroduce2.jpg)
 
 # 2.git setup
 ## download git
-[点我下载](https://git-scm.com/download/win)
+[点我下载](https://git-scm.com/download)<br/>
 <img src="img/git1.JPG" width="60%"/><br/>
 ## complete the setup wizard
 <img src="img/git2.JPG" width="60%"/><br/>
