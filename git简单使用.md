@@ -15,7 +15,7 @@
 
 输入 git config --list 检查是否设置成功
 ![](img/git3.JPG)<br/>
-#创建本地和远程仓库
+# 创建本地和远程仓库
 ## 创建远程仓库
 登录github账号，选择repositories-->new
 ![](img/githubcreaterepositories.jpg)<br/>
