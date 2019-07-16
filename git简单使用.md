@@ -66,29 +66,29 @@ GitHub需要识别出你推送的提交确实是你推送的，而不是别人�
 
 把地址粘贴到git gui的source location一栏，本地地址注意要在后面加上一个你要创建的仓库目录名
 
-![](img/git7.JPG)<br/>
+<img src="img/git7.JPG" width="60%"/><br/>
 
 选择Clone
 
-![](img/clonewait.JPG)<br/>
+<img src="img/clonewait.JPG" width="60%"/><br/>
 
 稍等片刻，远程仓库就克隆到本地仓库中了
 
-![](img/git6.JPG)<br/>
-
+<img src="img/git6.JPG" width="60%"/><br/>
 ## 提交和上推
 在本地仓库中对文件进行修改和增加，在git GUI中选择 rescan 重新扫描文件
 
 ![](img/rescan.JPG)<br/>
 
-部分文件可以看到右边窗口显示乱码，右击右边窗口，选择Encoding——>Unicode(UTF-8) 即可恢复正常，黑色字体是不变内容，绿色字体是新增加的内容，红色字体是修改的或删除的内容
+部分文件可以看到右边窗口显示乱码，右击右边窗口，选择Encoding——>Unicode(UTF-8) 即可恢复正常，绿色字体是新增加的内容，红色字体是被删除的内容
 
 ![](img/encoding.JPG)<br/>
 
 点击左上窗口所有文件的图标，并在右下窗口写上提交信息，选择Commit——>Push
 
-![](img/push.JPG)<br/>
-![](img/push1.JPG)<br/>
+
+<img src="img/push.JPG" width="60%"/>
+<img src="img/push1.JPG" width="60%"/>
 
 上推成功！
 
