@@ -14,18 +14,18 @@
 ## git:分布式版本管理系统
 
 集中式版本控制系统:<br/>
-<img src="img/svn.jpg" width="60%"/><br/>
+<img src="img/svn.jpg" width="50%"/><br/>
 git:<br/>
-<img src="img/git.jpg" width="60%"/><br/>
+<img src="img/git.jpg" width="50%"/><br/>
 ![](img/gitintroduce.jpg)<br/>
 ![](img/gitintroduce2.jpg)
 
 # 2.git setup
 ## download git
 [点我下载](https://git-scm.com/download)<br/>
-<img src="img/git1.JPG" width="60%"/><br/>
+<img src="img/git1.JPG" width="50%"/><br/>
 ## complete the setup wizard
-<img src="img/git2.JPG" width="60%"/><br/>
+<img src="img/git2.JPG" width="50%"/><br/>
 #### 在任意目录下，可以看到右击菜单多了一个git Bash和git GUI选项，说明已经安装成功。git Bash是指令窗口，git GUI是可视化图形窗口。
 
 
@@ -83,7 +83,7 @@ GitHub需要识别出你推送的提交确实是你推送的，而不是别人�
 
 ![](img/addssh.JPG)<br/>
 
-#### 把刚才复制的内容粘贴到key栏中，Title给这个key起个名字，选择Add SSH key
+#### 把刚才复制的内容粘贴到key栏中，Title一栏给这个key起个名字，选择Add SSH key
 
 ![](img/git5.JPG)<br/>
 
@@ -135,10 +135,10 @@ GitHub需要识别出你推送的提交确实是你推送的，而不是别人�
 ![](img/pushfail.JPG)
 
 ## 解决办法
-#### 下拉远程仓库：GUI菜单 Remote——>Fetch from——>origin
+#### pull remote repository：GUI菜单 Remote——>Fetch from——>origin
 ![](img/fetchfromorigin.JPG)
 
-#### 合并分支：选择merge——>local merge
+#### merge branch：选择merge——>local merge
 ![](img/localmerge.JPG)
 
 选择要合并到哪个本地的分支-->merge
@@ -149,7 +149,7 @@ GitHub需要识别出你推送的提交确实是你推送的，而不是别人�
 
 ![](img/pushsuccess.JPG)<br/>
 
-# 6.增加.gitignore忽略文件
+# 6..gitignore忽略文件
 一个本地的项目通常会产生很多编译出来的文件，这些文件我们不需要跟踪。
 当我们必须把某些文件放在本地，又不想提交它时，我们创建一个忽略目录
 #### 在本地仓库新建一个文本文档
