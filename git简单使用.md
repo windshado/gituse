@@ -23,7 +23,6 @@ git:<br/>
 # 2.git setup
 ## download git
 [点我下载](https://git-scm.com/download)<br/>
-<a href="https://git-scm.com/download" target="_blank">click me download</a>
 <img src="img/git1.JPG" width="50%"/><br/>
 ## complete the setup wizard
 <img src="img/git2.JPG" width="50%"/><br/>
