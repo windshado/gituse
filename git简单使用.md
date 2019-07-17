@@ -17,15 +17,15 @@
 <img src="img/svn.jpg" width="50%"/><br/>
 git:<br/>
 <img src="img/git.jpg" width="50%"/><br/>
-![](img/gitintroduce.jpg)<br/>
-![](img/gitintroduce2.jpg)
+<img src="img/gitintroduce.jpg" width="60%"/><br/>
+<img src="img/gitintroduce2.jpg" width="60%"/><br/>
 
 # 2.git setup
 ## download git
 [点我下载](https://git-scm.com/download)<br/>
-<img src="img/git1.JPG" width="40%"/><br/>
+<img src="img/git1.JPG" width="50%"/><br/>
 ## complete the setup wizard
-<img src="img/git2.JPG" width="40%"/><br/>
+<img src="img/git2.JPG" width="50%"/><br/>
 #### 在任意目录下，可以看到右击菜单多了一个git Bash和git GUI选项，说明已经安装成功。git Bash是指令窗口，git GUI是可视化图形窗口。
 
 
