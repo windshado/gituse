@@ -167,6 +167,7 @@ GitHub需要识别出你推送的提交确实是你推送的，而不是别人�
 <br/>
 <img src="img/gitignore.JPG" width="70%" />
 #### 另存为所有文件，命名为.gitignore
+
 ![](img/savegitignore.JPG)<br/>
 
 # 7.branch manage
