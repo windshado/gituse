@@ -102,8 +102,6 @@ GitHub需要识别出你推送的提交确实是你推送的，而不是别人�
 
 #### 选择Clone
 
-<img src="img/clonewait.JPG" width="60%"/><br/>
-
 稍等片刻，远程仓库就克隆到本地仓库中了
 
 <img src="img/git6.JPG" width="60%"/><br/>
@@ -128,7 +126,7 @@ GitHub需要识别出你推送的提交确实是你推送的，而不是别人�
 #### 这时在远程仓库中新添了文件
 ![](img/git10.JPG)<br/>
 
-## 存在问题：远程仓库比本地仓库有更新内容导致上推失败
+## 远程仓库比本地仓库有更新内容导致上推失败
 新的内容上推之前在本地另一个目录创建仓库B并下拉项目，再上推仓库A新的内容，这样仓库B的内容就比远程仓库旧。
 
 修改仓库B的内容并上推，发现上推失败。
@@ -166,11 +164,10 @@ GitHub需要识别出你推送的提交确实是你推送的，而不是别人�
 		*/WEB-INF/classes、*/WEB-INF/classes/、*/WEB-INF/classes/*			.gitignore所有同级目录下的WEB-INF/classes下文件被忽略
 		**/WEB-INF/classes、**/WEB-INF/classes/、**/WEB-INF/classes/*			所有路径中含有 WEB-INF/classes 的文件被忽略
 		.gitignore 放在 .git 文件同级才会生效
-
+<br/>
 <img src="img/gitignore.JPG" width="70%" />
 #### 另存为所有文件，命名为.gitignore
 ![](img/savegitignore.JPG)<br/>
-#### 并上推到远程仓库
 
 # 7.branch manage
 ## create branch
