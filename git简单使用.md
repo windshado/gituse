@@ -20,6 +20,8 @@ git:<br/>
 <img src="img/gitintroduce.jpg" width="60%"/><br/>
 <img src="img/gitintroduce2.jpg" width="60%"/><br/>
 
+[详细了解git](http://www.git-scm.com.cn/1479.html)<br/>
+
 # 2.git setup
 ## download git
 [点我下载](https://git-scm.com/download)<br/>
